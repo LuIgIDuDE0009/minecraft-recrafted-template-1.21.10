@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraftrecrafted:block/glow_torch"
+    }
+  }
+}

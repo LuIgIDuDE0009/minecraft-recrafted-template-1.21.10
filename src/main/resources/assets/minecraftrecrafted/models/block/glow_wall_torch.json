@@ -1,0 +1,6 @@
+{
+  "parent": "minecraftrecrafted:block/template_glow_torch_wall",
+  "textures": {
+    "torch": "minecraftrecrafted:block/glow_torch"
+  }
+}
