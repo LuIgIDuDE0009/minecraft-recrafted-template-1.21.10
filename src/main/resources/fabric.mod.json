@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "minecraft-recrafted",
+	"version": "${version}",
+	"name": "Minecraft Recrafted",
+	"description": "Recrafting Minecraft",
+	"authors": [
+		"LuIgIDuDE"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/minecraft-recrafted/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"luigi.minecraftrecrafted.MinecraftRecrafted"
+		],
+		"fabric-datagen": [
+			"luigi.minecraftrecrafted.MinecraftRecraftedDataGenerator"
+		],
+      "client": [
+        "luigi.minecraftrecrafted.MinecraftRecraftedClient"
+      ]
+	},
+	"mixins": [
+		"minecraft-recrafted.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
